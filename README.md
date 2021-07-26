@@ -1,7 +1,9 @@
-# Mini chat DOM
+# Estudando DOM | Mini Chat
 
-** :alert: O PROJETO AINDA ESTÁ EM CONSTRUÇÃO**
+**:construction: O PROJETO AINDA ESTÁ EM CONSTRUÇÃO :construction:**
 
 Esse é meu primeiro projeto que utilizo DOM
 
-[Ir para o site](https://jvscirilo.github.io)
+:point_down:
+
+[Ir para o site >](https://jvscirilo.github.io/chat/index.html)
