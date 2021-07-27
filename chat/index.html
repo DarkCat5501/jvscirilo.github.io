@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="/chat/assets/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="/chat/styles/main.css">
     <link rel="stylesheet" href="/chat/styles/universal.css">
+    <link rel="stylesheet" href="/chat/styles/responsive.css">
     <script src="/chat/scripts.js"></script>
     <title>Riloflix | Chat</title>
 </head>
@@ -14,9 +15,11 @@
     <main>
         <div class="saidaarea" id="output">
         </div>
-        <div class="entradaarea">
-            <input id="entrada" type="text" placeholder="Escrever...">
-            <input id="botaoenviar" class="botao" type="button" value="enviar">
+        <div class="entradaarea">    
+            <div class="entradasubarea">
+                <input id="entrada" type="text" placeholder="Escrever..." maxlength="250">
+                <input id="botaoenviar" class="botao" type="button" value="enviar">
+            </div>
         </div>
     </main>
 </body>
