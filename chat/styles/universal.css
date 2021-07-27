@@ -2,9 +2,9 @@
     --p-color: rgb(240, 240, 240);
     --green-color-dark: rgb(173, 255, 47);
     --color-dark-tom1: rgba(10, 10, 14, 1);
-    --color-dark-tom2: rgba(30, 30, 34, 1);
-    --color-dark-tom3: rgba(50, 50, 54, 1);
-    --color-dark-tom4: rgba(70, 70, 74, 1);
+    --color-dark-tom2: rgba(16, 17, 21, 1);
+    --color-dark-tom3: rgba(35, 38, 40, 1);
+    --color-dark-tom4: rgba(70, 75, 80, 1);
     --color-dark-tom5: rgb(200, 200, 200, 1);   
 }
 ::-webkit-scrollbar{
@@ -12,7 +12,7 @@
 }
 ::-webkit-scrollbar-thumb{
     background-color: var(--color-dark-tom3);
-    border: solid 6px var(--color-dark-tom1);
+    border: solid 6px var(--color-dark-tom2);
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover{
