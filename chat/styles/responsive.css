@@ -1,20 +1,55 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 900px){
     main{
         height: 90vh;
     }
+    #entrada{
+        height: 40px;
+        border-radius: 20px;
+    }
+    .botao{
+        height: 40px;
+    }
     .entradaarea{
+        display: flex;
         position: fixed;
         bottom: 0px;
+        height: 80px;
+        margin: 0;
+        align-items: center;
     }
     .entradasubarea{
         width: 90%;
+        align-items: center;
+        margin: 0 auto;
     }
     .saidaarea{
         position: fixed;
-        top: 0;
+
+        max-width: 100%;
+
+        top: 50px;
         border: none;
-        height: calc(100% - 110px);
+        height: calc(100% - 130px);
         margin: 0;
         padding: 0;
+    }
+    .mensagem{
+        max-width: 70%;
+    }
+    .formnome{
+        z-index: 2;
+        position: fixed;
+        top: 0;
+
+        height: 50px;
+        background-color: var(--color-dark-tom1);
+        box-shadow: inset 0 -1px 0 0 var(--color-dark-tom3),
+                    0 5px 5px 0 var(--color-dark-tom2);
+    }
+    .nome{
+        height: calc(100% - 1px);
+        color: var(--color-dark-tom5);
+        font-size: 1em;
+        margin: 0 0 0 auto;
     }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,16 +9,19 @@
     <link rel="stylesheet" href="/chat/styles/universal.css">
     <link rel="stylesheet" href="/chat/styles/responsive.css">
     <script src="/chat/scripts.js"></script>
-    <title>Chat</title>
+    <title>Riloflix | Chat</title>
 </head>
 <body>
     <main>
+        <form class="formnome">
+            <input class="nome" id="username" type="text" maxlength="30" placeholder="Seu nome" value="">
+        </form>
         <div class="saidaarea" id="output">
         </div>
-        <div class="entradaarea">    
+        <div class="entradaarea">
             <div class="entradasubarea">
                 <input id="entrada" type="text" placeholder="Escrever..." maxlength="250">
-                <input id="botaoenviar" class="botao" type="button" value="enviar">
+                <button id="botaoenviar" class="botao" type="submit">Enviar</button>
             </div>
         </div>
     </main>
