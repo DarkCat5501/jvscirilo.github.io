@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/chat/assets/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/chat/styles/main.css">
-    <link rel="stylesheet" href="/chat/styles/universal.css">
-    <link rel="stylesheet" href="/chat/styles/responsive.css">
-    <script src="/chat/scripts.js"></script>
-    <title>JVSCirilo | Chat (em desenvolvimento)</title>
+    <link rel="shortcut icon" href="../assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/chat.css">
+    <link rel="stylesheet" href="../styles/universal.css">
+    <link rel="stylesheet" href="../styles/responsive.css">
+    <script src="../scripts/chat.js"></script>
+    <title>JVSCirilo's Chat</title>
 </head>
 <body>
     <main>
-        <form class="formnome" hidden>
-            <input class="nome" id="username" type="text" maxlength="30" placeholder="Seu nome" value="">
+        <form class="nome-area">
+            <input id="username" type="text" maxlength="30" placeholder="[Em desenvolvimento] Seu nome" value="">
         </form>
-        <div class="saidaarea" id="output">
+        <div class="saida-area" id="output">
         </div>
-        <div class="entradaarea">
-            <div class="entradasubarea">
+        <div class="entrada-area">
+            <div class="entrada-sub-area">
                 <input id="entrada" type="text" placeholder="Escrever..." maxlength="250">
-                <button id="botaoenviar" class="botao" type="submit">Enviar</button>
+                <button id="botao-enviar" class="botao" type="submit">Enviar</button>
             </div>
         </div>
     </main>

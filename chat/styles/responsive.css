@@ -2,54 +2,74 @@
     main{
         height: 90vh;
     }
-    #entrada{
-        height: 40px;
-        border-radius: 20px;
-    }
-    .botao{
-        height: 40px;
-    }
-    .entradaarea{
-        display: flex;
-        position: fixed;
-        bottom: 0px;
-        height: 80px;
-        margin: 0;
-        align-items: center;
-    }
-    .entradasubarea{
-        width: 90%;
-        align-items: center;
-        margin: 0 auto;
-    }
-    .saidaarea{
-        position: fixed;
 
-        max-width: 100%;
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* NAME INPUT AREA*/
 
-        top: 50px;
-        border: none;
-        height: calc(100% - 130px);
-        margin: 0;
-        padding: 0;
-    }
-    .mensagem{
-        max-width: 70%;
-    }
-    .formnome{
-        z-index: 2;
-        position: fixed;
-        top: 0;
-
-        height: 50px;
+    .nome-area{
         background-color: var(--color-dark-tom1);
         box-shadow: inset 0 -1px 0 0 var(--color-dark-tom3),
                     0 5px 5px 0 var(--color-dark-tom2);
+        height: 50px;
+        max-width: 100%;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
     }
-    .nome{
-        height: calc(100% - 1px);
+ 
+    #username{
         color: var(--color-dark-tom5);
         font-size: 1em;
+        height: calc(100% - 1px);
         margin: 0 0 0 auto;
+        width: 100%;
+    }
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* MENSSAGE OUTPU AREA*/
+
+    .saida-area{
+        border: none;
+        height: calc(100% - 130px);
+        margin: 0;
+        max-width: 100%;
+        padding: 0;
+        position: fixed;
+        top: 50px;
+    }
+
+    .mensagem{
+        max-width: 70%;
+    }
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* MENSSAGE INPUT AREA*/
+
+    .entrada-area{
+        align-items: center;
+        bottom: 0px;
+        box-shadow: inset 0 1px 0 0 var(--color-dark-tom3),
+                    0 -5px 5px 0 var(--color-dark-tom2);
+        display: flex;
+        height: 80px;
+        margin: 0;
+        position: fixed;
+        z-index: 2;
+    }
+    
+    .entrada-sub-area{
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    #entrada{
+        border-radius: 20px;
+        height: 40px;
+    }
+    
+    .botao{
+        height: 40px;
     }
 }

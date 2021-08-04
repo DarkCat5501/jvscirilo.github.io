@@ -1,0 +1,151 @@
+html{
+    background-color: var(--color-dark-tom1);
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+main{
+    align-items: center;
+    background-color: var(--color-dark-tom1);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+p{
+    margin: 15px 15px ;
+    padding: 0;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* USERNAME INPUT AREA*/
+
+.nome-area{
+    box-shadow: 0 0 0 1px var(--color-dark-tom3);
+    display: flex;
+    max-width: 600px;
+    min-height: 50px;
+    justify-content: right;
+    width: 100%;
+}
+
+#username{
+    background-color: var(--color-dark-tom1);
+    border: none;
+    color: var(--p-color);
+    cursor: not-allowed;
+    height: 50px;
+    margin: 0 0 0 auto;
+    outline: none;
+    padding: 0 30px; 
+    pointer-events: none;
+    text-align: right;
+    width: 70%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* MENSSAGE OUTPUT AREA*/
+
+.saida-area{
+    background-color: var(--color-dark-tom2);
+    border-top: solid 10px var(--color-dark-tom2);
+    border-bottom: solid 10px var(--color-dark-tom2);
+    box-shadow: 0px 0px 0px 1px var(--color-dark-tom3);
+    display: flex;
+    flex-direction: column-reverse;
+    height: calc(100% - 100px);
+    max-width: 600px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.mensagem{
+    background-color: var(--color-dark-tom3);
+    border-radius: 8px 8px 0px 8px;
+    color: var(--p-color);
+    display: inline-block;
+    font-size: 0.9em;
+    height: auto;   
+    margin: 0px 5px 15px auto;
+    max-width: 80%;
+    padding: 10px 10px;    
+    width: auto;
+    word-wrap: break-word;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* MENSSAGE INTPUT AREA*/
+
+.entrada-area{
+    background-color: var(--color-dark-tom1);
+    box-shadow: 0 -1px 0 0px var(--color-dark-tom3);
+    display: flex;
+    height: 60px;
+    width: 100%;
+}
+
+.entrada-sub-area{
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#entrada{
+    background-color: var(--color-dark-tom2);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px var(--color-dark-tom3);   
+    color: var(--p-color);
+    flex: 1;
+    font-size: 0.9em;
+    height: auto;
+    min-height: 30px;
+    outline: none;
+    padding: 10px;
+    transition-duration: 200ms;
+    word-wrap: break-word;
+}
+
+.botao{
+    background-color: var(--color-dark-tom5);
+    border: none;
+    border-radius: 10px;
+    color: var(--color-dark-tom1);
+    width: 60px;
+    height: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+    cursor: pointer;   
+    transition-duration: 200ms;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* ANIMATIONS*/
+
+#entrada:hover{
+    box-shadow: inset 0 0 2px 0 var(--color-dark-tom5);
+}
+
+#entrada:focus{
+    background-color: var(--color-dark-tom3);
+    box-shadow: 0 0 0 1px var(--color-dark-tom3);
+}
+
+.botao:hover{
+    background-color: var(--color-dark-tom2);
+    color: var(--color-dark-tom5);
+}
